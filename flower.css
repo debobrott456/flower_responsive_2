@@ -1,0 +1,24 @@
+.header{
+    margin:16px 144px; 
+}
+.navbar{
+    display:flex; justify-content: space-between; gap:8px; align-items: center;
+}
+.menu{
+    display:flex; gap: 32px;
+}
+.font-bold{
+    font-weight: 700px;
+}
+.banner{
+    display:flex; gap: 12px; margin-top:144px;
+}
+.banner-title{
+    font-size: 72px; padding-bottom: 12px;
+}
+.orrange{
+    color:#E95A08;
+}
+.black-5{
+    color:rgba(0, 0, 0, 0.5);
+}
