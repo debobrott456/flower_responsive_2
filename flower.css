@@ -41,6 +41,7 @@
 .btn{
     color:white; background-color: #E95A08; width: 272px; padding:10px 15px; border:none;;
 }
+
 p{
     font-size: 22px;
 }
@@ -71,9 +72,33 @@ p{
     font-size: 60px; padding:0; margin:0;
 }
  
- .join{
-    background-image:url('./assets/news-letter-bg.png'); width:100%;  background-size: cover; height: 520px; display:flex; flex-direction: column; justify-content: center; align-items: center;
-
+.bg-image {
+  width: 100%;
+  height: 520px; /* Required to show background */
+  background-image: url('./assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ .text-6{
+    font-size: 60px;
+    color:white;
+ }
+ .flex-2{
+    display: flex;
+ }
+ .input{
+    background-color: white; width: 400px; padding: 9px; border:none;
+ }
+ .btn-2{
+    width:100px;
+ }
+ .bg-title{
+    font-size: 60px;
+    color:white;
+ }
+ .bg-div{
+    height: 520px; display:flex; flex-direction: column; justify-content: center; align-items: center;
  }
 @media screen and (max-width:576px) {
     .hidden{
@@ -92,7 +117,7 @@ p{
      display:grid; grid-template-columns:repeat(2,1fr);   gap:12px;
 }
 .section{
-     margin: 20px 20px;
+     margin: 35px 20px;
 }
 .card{
     width:220px;
@@ -102,5 +127,36 @@ p{
 }
 .btn{
     width: 220px;
+}
+.flex{
+    flex-direction: column;
+    gap:25px;
+}
+.badge-content{
+    width:100%; padding-left: 34px;
+}
+.store{
+    width:100%;
+}
+.absolute{
+    display: none;
+}
+.bg-image {
+  width: 100%;
+  height: auto;
+ /* Required to show background */
+  background-image: url('./assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ .bg-title{
+    font-size: 45px;
+ }
+  .input{
+    background-color: white; width:300px; padding: 9px; border:none;
+ }
+ .btn{
+    width: 90px;
 }
 }
