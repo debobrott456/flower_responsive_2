@@ -100,6 +100,29 @@ p{
  .bg-div{
     height: 520px; display:flex; flex-direction: column; justify-content: center; align-items: center;
  }
+ .footer{
+     margin:112px 144px; 
+ }
+ .container-2{
+    display:flex; justify-content:space-between ; gap:10px;
+ }
+ .first{
+    width:30%;
+ }
+ .about-container{
+    display:flex; gap:80px; width:30%;
+ }
+ .column{
+    display:flex; flex-direction: column; 
+ }
+ .div-3{
+    display:flex;
+    width:30%;
+    gap:16px;
+ }
+ .wh{
+    width:60px; height: 60px;
+ }
 @media screen and (max-width:576px) {
     .hidden{
         display:none;
@@ -159,4 +182,10 @@ p{
  .btn{
     width: 90px;
 }
+.container-2{
+    display:flex; flex-direction: column; gap:10px;
+ }
+  .first{
+    width:100%;
+ }
 }
