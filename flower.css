@@ -8,17 +8,70 @@
     display:flex; gap: 32px;
 }
 .font-bold{
-    font-weight: 700px;
+    font-weight: 700;
 }
 .banner{
     display:flex; gap: 12px; margin-top:144px;
 }
 .banner-title{
-    font-size: 72px; padding-bottom: 12px;
+    font-size: 72px; padding-bottom: 12px; 
 }
 .orrange{
     color:#E95A08;
 }
 .black-5{
     color:rgba(0, 0, 0, 0.5);
+}
+
+.section{
+  margin: 112px 144px;
+}
+.plant-title{
+    font-size: 60px; text-align: center;
+}
+.plant-description{
+     padding-bottom: 64px;
+}
+.text-center{
+    text-align:center ;
+}
+.grid{
+    display:grid; grid-template-columns:repeat(4,1fr);   gap:12px;
+}
+.btn{
+    color:white; background-color: #E95A08; width: 272px; padding:10px 15px; border:none;;
+}
+p{
+    font-size: 22px;
+}
+
+
+@media screen and (max-width:576px) {
+    .hidden{
+        display:none;
+    }
+    .header{
+    margin:16px 20px; 
+}
+.banner{
+    display:flex; flex-direction: column-reverse; gap: 12px; margin-top:30px;
+}
+.banner-title{
+    font-size: 50px; padding-bottom: 12px; 
+}
+.grid{
+     display:grid; grid-template-columns:repeat(2,1fr);   gap:12px;
+}
+.section{
+     margin: 20px 20px;
+}
+.card{
+    width:220px;
+}
+.flower{
+    width:100%;
+}
+.btn{
+    width: 220px;
+}
 }
